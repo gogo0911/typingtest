@@ -12,7 +12,8 @@
         .text::after { content: "|"; color: red; animation: cursor 0.5s linear infinite;}
         @keyframes cursor {
             0% {opacity: 1;}
-            50% {opacity: 0.5;}
+            50% {opacity: 0.5; transform: rotate(40deg);}
+            75% {opacity: 0.8; transform: rotate(75deg);}
             100% {opacity: 0;}
         }
         .text .child {color: orange;}
